@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { CarFront, ShieldAlert, CloudSun, Ship, MapPin, PlusCircle, Bell, UserRound, Camera, Video, MessageCircle } from "lucide-react";
 
@@ -71,7 +72,7 @@ export default function Home() {
       )}
 
       <footer><span>© Mayotte 976</span><span>Français · Shimaoré · Kibushi</span></footer>
-      <nav className="bottom-nav"><span>⌂<small>Accueil</small></span><span>⌖<small>Carte</small></span><span onClick={() => setShowReport(true)}>＋<small>Signaler</small></span><span>♧<small>Alertes</small></span><span><UserRound size={19}/><small>Compte</small></span></nav>
+      <nav className="bottom-nav"><span>⌂<small>Accueil</small></span><span>⌖<small>Carte</small></span><span onClick={() => setShowReport(true)}>＋<small>Signaler</small></span><span>♧<small>Alertes</small></span><Link href="/compte"><UserRound size={19}/><small>Compte</small></Link></nav>
     </main>
   );
 }
