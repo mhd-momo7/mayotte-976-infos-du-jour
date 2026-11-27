@@ -1,0 +1,9 @@
+{
+  "name": "Mayotte 976 – Infos du jour",
+  "short_name": "Mayotte 976",
+  "description": "Trafic, sécurité, météo et barges à Mayotte",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7f8",
+  "theme_color": "#102b43"
+}
