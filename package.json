@@ -1,3 +1,4 @@
+
 {
   "name": "mayotte-976",
   "version": "0.1.0",
@@ -5,8 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    
+    "start": "next start"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
@@ -23,3 +23,6 @@
     "typescript": "^5.7.3"
   }
 }
+
+
+
